@@ -1,1 +1,1 @@
-# jpa-standalone
+# JPA Standalone Project Template
