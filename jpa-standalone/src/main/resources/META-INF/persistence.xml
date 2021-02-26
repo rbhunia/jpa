@@ -7,7 +7,6 @@
         <class>org.example.Person</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
-            <!--        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>-->
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/postgres"/>
@@ -15,12 +14,8 @@
             <property name="javax.persistence.jdbc.password" value="postgres"/>
             <property name="connection.pool_size" value="1"/>
             <property name="hibernate.show_sql" value="true"/>
-
-            <!-- JDBC Database connection settings -->
-
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.generate_statistics" value="true"/>
-
         </properties>
     </persistence-unit>
 </persistence>
