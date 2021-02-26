@@ -14,7 +14,7 @@ public class App {
         transaction.begin();
 
         Person person = new Person();
-        person.setName("Taj");
+        person.setName("Raj");
 
         manager.persist(person);
         transaction.commit();
