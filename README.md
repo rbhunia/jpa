@@ -1,1 +1,1 @@
-# jpa
+# Java Persistance API
