@@ -1,1 +1,1 @@
-# hibernate-standalone
+# Hibernate Standalone Project Template
